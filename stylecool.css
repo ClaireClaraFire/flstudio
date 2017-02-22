@@ -1,0 +1,138 @@
+body {
+
+background-color:#fff;
+background-image:url("https://wallpaperscraft.com/image/dark_spots_texture_background_50355_1920x1080.jpg");
+}
+.wrapper{
+	display: grid;
+	grid-template-columns:450px 450px 450px 450px;
+	grid-template-rows:90px 150px 150px 150px;
+	grid-gap: 10px;
+	color:#444;
+	
+}
+.box {
+	
+	background-color:#444;
+	color:#fff;
+	border-radius:15px;
+	padding:1px;
+	font-size:25px;
+	text-align:center;
+	top:80px
+	transition:height 2s;
+	
+	
+	
+}
+
+a {
+	color:white;
+	text-decoration:none;
+	font-family:batman;
+	
+}
+h1{
+	font-family:batman;
+	text-align:center;
+	
+	color:#ffd400;
+	
+}
+.box:hover{
+	
+	height:300px
+	
+}
+	
+
+.a{
+	background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ),url("http://www.image-line.com/innovaeditor/assets/FL%20Studio%20Mobile3%20Rounded%201024.png");
+	background-repeat:no-repeat;
+	
+	background-size:cover;
+	background-position:center;
+	
+}
+.b{
+	background-repeat:no-repeat;
+	background-image:url("https://www.mpcindia.co/wp-content/uploads/2015/11/phir-mohabbat-8211-remix-8211-dj-lijo-8211-fl-studio-remake.jpg");
+	background-size:cover;
+}
+.c{
+	background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ),url("http://www.billboard.com/files/styles/article_main_image/public/media/max-martin-grammys-2015-billboard-650.jpg");
+	background-size:cover;
+}
+.D{
+	background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ),url("https://static.kvraudio.com/i/b/massive.jpg");
+	background-size:cover;
+	
+}
+@font-face {
+	font-family: batman;
+	src:url('Dubstep.otf');
+	
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.yummy {
+	height:100px;
+	width:100px;
+	background-color:red;
+	position:relative;
+	animation-name:example;
+	animation-duration:4s;
+	animation-delay:2s;
+	
+}
+.fonty{
+	font-family:"Times New Roman";
+	color:white;
+}
+.harmor{
+	margin:40px;
+	width:700px;
+	height:500px;
+}
+.nexus{
+	width:700px;
+	height:500px;
+	
+}
+.reverb{
+	position:absolute;
+	top:10px;
+	
+	left:300px;
+	width:400px;
+	height:200px;
+	
+}
+.massive{
+	position:absolute;
+	top:20px;
+	left:1100px;
+	width:600px;
+	height:400px;
+}	
+.para{
+	font-family:"Times New Roman";
+	color:White;
+}
+
+
+.apple{
+	background-color:#444;
+	color:#fff;
+	border-radius:15px;
+	padding:50px;
+	font-size:25px;
+	text-align:center;
+	top:80px
+	
+}
